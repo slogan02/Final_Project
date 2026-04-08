@@ -35,7 +35,7 @@ https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset
   
 ## Features Engineered
 - StudyEfficiency
-- SupportIndex
+- TotalSupport
 - ActivityScore
 
 ## How to Run
