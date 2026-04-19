@@ -41,9 +41,9 @@ https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset
 - RiskScore
 
 ## Key Insights
-Attendance, risk score, and study effificiency are the strongest predictors of student performance
-Engineered features improved model accuracy and interpretability
-Random Forest outperformed Neural Network due to dataset size and structure
+Attendance, risk score, and study effificiency are the strongest predictors of student performance.
+Engineered features improved model accuracy and interpretability.
+Random Forest outperformed Neural Network due to dataset size and structure.
 
 ## Final Recommendation
 
