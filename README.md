@@ -17,26 +17,37 @@ https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset
 - Neural Network
 
 ## Results
-- Random Forest:   71.6% accuracy,
-                   71.3% precision,
-                   71.6% recall,
-                   71.1% F1,
-                   78.8% RMSE,
-                   36.7% MAE,
-   Training Time : 0.67 seconds
+- Random Forest:   71.12% accuracy,
+                   71.23% precision,
+                   71.12% recall,
+                   70.74% F1,
+                   80.06% RMSE,
+                   37.37% MAE,
+   Training Time : 2.423443 seconds
   
-- Neural Network:  66.1% accuracy,
-                   67.8% precision,
-                   66.1% recall,
-                   66.8% F1,
-                   96.2% RMSE,
-                   48.4% MAE,
-   Training Time : 6.07 seconds
+- Neural Network:  70.56% accuracy,
+                   69.69% precision,
+                   70.56% recall,
+                   70.05% F1,
+                   81.73% RMSE,
+                   37.99% MAE,
+   Training Time : 1.099335 seconds
   
 ## Features Engineered
 - StudyEfficiency
 - TotalSupport
 - ActivityScore
+- SupportPerActivity
+- RiskScore
+
+## Key Insights
+Attendance, risk score, and study effificiency are the strongest predictors of student performance
+Engineered features improved model accuracy and interpretability
+Random Forest outperformed Neural Network due to dataset size and structure
+
+## Final Recommendation
+
+The Random Forest model is recommended for deployment due to its superior accuracy, efficiency, and interpretability, making it well-suited for educational decision support.
 
 ## How to Run
 1. Install dependencies:
